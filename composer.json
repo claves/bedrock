@@ -71,7 +71,8 @@
     "wpackagist-plugin/post-smtp":"*",
     "wpackagist-plugin/search-and-replace":"*",
     "wpackagist-plugin/duplicate-post":"*",
-    "wpackagist-plugin/wp-multibyte-patch":"*"
+    "wpackagist-plugin/wp-multibyte-patch":"*",
+    "wpackagist-plugin/google-analytics-for-wordpress":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
