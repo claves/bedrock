@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6b20339a1bf683e89f9c8160b1ceb3a",
+    "content-hash": "ae571bb674e32ab43725179741b207e5",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -668,6 +668,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "7.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/7.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
         },
         {
             "name": "wpackagist-plugin/google-captcha",
