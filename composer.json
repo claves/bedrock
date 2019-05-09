@@ -32,6 +32,10 @@
       "url": "https://wpackagist.org"
     },
     {
+      "type": "composer",
+      "url": "https://wp-languages.github.io"
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -72,13 +76,25 @@
     "wpackagist-plugin/search-and-replace":"*",
     "wpackagist-plugin/duplicate-post":"*",
     "wpackagist-plugin/wp-multibyte-patch":"*",
-    "wpackagist-plugin/google-analytics-for-wordpress":"*"
+    "wpackagist-plugin/google-analytics-for-wordpress":"*",
+    "wpackagist-plugin/better-wp-security":"*",
+    "wpackagist-plugin/lazysizes":"*",
+    "wpackagist-plugin/breadcrumb-navxt":"*",
+    "wpackagist-plugin/contact-form-7-add-confirm":"*",
+    "wpackagist-plugin/redirection":"*",
+    "koodimonni-language/core-ja": "*",
+    "koodimonni/composer-dropin-installer": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
     "roave/security-advisories": "dev-master"
   },
   "extra": {
+    "dropin-paths": {
+      "web/app/languages/": ["vendor:koodimonni-language"],
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
+    },
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
