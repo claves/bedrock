@@ -51,7 +51,7 @@
         },
         "require": {
           "composer/installers": "^1.0",
-          "philippbaschke/acf-pro-installer": "^1.0"
+          "claves/acf-pro-installer": "^1.0.3"
         }
       }
     },
