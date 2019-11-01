@@ -80,7 +80,7 @@
     "wpackagist-plugin/search-and-replace":"*",
     "wpackagist-plugin/duplicate-post":"*",
     "wpackagist-plugin/wp-multibyte-patch":"*",
-    "wpackagist-plugin/google-analytics-for-wordpress":"*",
+    "wpackagist-plugin/google-site-kit":"*",
     "wpackagist-plugin/better-wp-security":"*",
     "wpackagist-plugin/lazysizes":"*",
     "wpackagist-plugin/breadcrumb-navxt":"*",
