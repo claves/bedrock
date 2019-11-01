@@ -36,14 +36,10 @@
       "url": "https://wp-languages.github.io"
     },
     {
-      "type": "composer",
-      "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/"
-    },
-    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.0",
+        "version": "5.8.3",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -51,7 +47,7 @@
         },
         "require": {
           "composer/installers": "^1.0",
-          "philippbaschke/acf-pro-installer": "^1.0"
+          "claves/acf-pro-installer": "^1.0.3"
         }
       }
     },
@@ -68,7 +64,7 @@
     "roots/wordpress": "*",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.0",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.8.3",
     "wpackagist-plugin/wordpress-seo":"*",
     "wpackagist-plugin/contact-form-7":"*",
     "mdsimpson/contact-form-7-to-database-extension":"*",
